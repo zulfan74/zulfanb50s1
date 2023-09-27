@@ -1,0 +1,43 @@
+* {
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+form {
+    width: 350px;
+    margin: 50px auto;
+    padding: 10px;
+}
+
+form div {
+    margin-top: 15px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input, select, textarea {
+    background-color: #dfdede;
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid #dbdbdb;
+    resize: none;
+}
+
+button {
+    background-color: orangered;
+    color: white;
+    padding: 90px auto;
+    border: none;
+    border-radius: 5px;
+    margin-top: 5px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: black;
+}
