@@ -1,51 +1,132 @@
 <html>
     <head>
         <title>Personal web B50S1</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
     </head>
     <body>
-        <div style="
-            width: 550px;
-            border: 3px solid black;
-            margin: 30px auto;
-            padding: 10px;
-            border-radius: 10px;
-            box-shadow: 0 0 15px #cecece;"
-        >
-            <h1 align="center">Hi Welcome To My Hut</h1>
-            <p>Saya Zulfan, usia 25 tahun yang saat ini sedang freelance sebagai seorang musisi reguler.
-               Namun saya butuh ilmu yang lebih untuk mengembangkan potensi dalam diri saya 
-               dan untuk bisa menyesuaikan diri dalam menghadapi perkembangan teknologi yang kian pesat.
-               agar saya tidak terlalu jauh tertinggal, maka saya putuskan untuk mengikuti program Fullstack Developer di Dumbways.id ini
-               yang sekiranya bisa merubah secercah harapan saya untuk masa depan yang lebih baik lagi.
-            </p>
-            <button style="margin-left: 0px; margin-bottom: 5px; background-color: rgb(15, 15, 34); color: aliceblue; border-radius: 10px 10px; border: none; height: 25px; width: 90px; font-family: monospace">contact</button>
-            <br>
-            <button style="margin-left: 0px; margin-bottom: 5px;" <img src="./Image/download.png" alt="download" style="height: 15px; width: 40px;"/>Download CV<button>
-            </br>
-            <div align="center; margin: auto;">
-                <img src="./Image/ig.jpg" alt="ig" style="height: 50px; width: 60px;" />
-                <img src="./Image/fb.jpg" alt="fb" style="height: 50px; width: 60px;" />
-                <img src="./Image/wa.jpg" alt="wa" style="height: 50px; width: 60px;" />
-                <img src="./Image/tw.jpg" alt="tw" style="height: 50px; width: 60px;" />
+        <nav>
+            <div class="nav-left">
+                <ul>
+                    <li>
+                        <img src="image/logo.png" alt="dw"/>
+                    </li>
+                    <li>
+                        <a class="active" href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="#">Blog</a>
+                    </li>
+                </ul>
             </div>
-            <img src="./Image/Z.jpg" style="width: 100%; border-radius: 10px 10px 0px 0px;" alt="Zulfan">
-         <h2 align="center">Muhammad Zulfan Liddinillah</h2>
-         <table style="
-          border: 3px double black;
-          width: 100%;
-          text-align: center;
-          border-collapse: collapse;
-          margin-bottom: 10px;
-          ">
-            <tr style="border: 1px solid black;">
-                <th style="border: 1px solid black;">Experience</th>
-                <th style="border: 1px solid black;">Year</th>
-            </tr>
-            <tr style="border: 1px solid black;">
-                <td style="border: 1px solid black;">Musician</td>
-                <td style="border: 1px solid black">2022</td>
-            </tr>
-         </table>
+            <div class="nav-right">
+                <a href="contact.html">Contact</a>
+            </div>
+        </nav>
+
+        <div class="container">
+            <section>
+                <div class="left">
+                    
+                    <br/>
+                    <br/><br/>
+                    
+                    <div style="
+                        width: 100%;
+                        border: 3px solid black;
+                        margin: 0px auto;
+                        padding: 10px;
+                        border-radius: 10px;
+                        box-shadow: 0 0 15px #cecece;
+                    ">
+                    <h1 align="center" >Hi Welcome To My Hut</h1>
+                    <p>
+                        Saya Zulfan, usia 25 tahun yang saat ini sedang freelance sebagai seorang musisi reguler.
+                    Namun saya butuh ilmu yang lebih untuk mengembangkan potensi dalam diri saya 
+                    dan untuk bisa menyesuaikan diri dalam menghadapi perkembangan teknologi yang kian pesat.
+                    agar saya tidak terlalu jauh tertinggal, maka saya putuskan untuk mengikuti program Fullstack Developer di Dumbways.id ini
+                    yang sekiranya bisa merubah secercah harapan saya untuk masa depan yang lebih baik lagi.
+                    </p>
+                    <p></p>
+                    <table style="
+                        width: 25%;
+                        text-align: center;
+                        background-color: grey;
+                        border-radius: 25px 25px 25px 25px;">
+                        <tr>
+                            <th>
+                                <a href="https://www.instagram.com/afan_zull/" class="contact-link">Contact Me</a>
+                            </th>
+                        </tr>
+                    </table>
+                    <div class="text-with-logo" style="margin-top: 10px;">
+                        <div class="text" ><a href="https://www.instagram.com/trois3music" class="contact-link">Download CV</a></div>
+                        <div class="logodownload"></div>
+                    </div>
+                    <p></p>
+                    
+                    <div style="margin-top: 5px; margin-left: 250px;">
+                        <i class="fa-brands fa-facebook"><a href="www.facebook.com/"></a></i>
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-whatsapp"></i>
+                        <i class="fa-brands fa-youtube"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                    </div>
+                    
+                    <div align="center">
+                    </div>
+                        <img src="./Image/Z.jpg" style="width: 100%; border-radius: 10px 10px 0px 0px;" alt="Zulfan">
+                        <h2 align="center">Muhammad Zulfan Liddinillah</h2>
+            
+                        <table style="
+                            border: 1px solid grey;
+                            width: 100%;
+                            text-align: center;
+                            border-collapse: collapse;
+                            margin-bottom: 10px;
+                            margin-top: 20px;
+                            ">
+                            <tr style="background-color: grey; color: white;">
+                                <th style="border: 1px solid black;">Experience</th>
+                                <th style="border: 1px solid black;">Year</th>
+                            </tr>
+                            <tr style="border: 1px solid black;">
+                                <td style="border: 1px solid black;">Musician</td>
+                                <td style="border: 1px solid black">2022</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+                <div class="right">
+                    <h2>What i do?</h2>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam, eveniet eaque. Nulla sint voluptatem ipsam, est accusamus, cum quas, ipsum fugiat rem mollitia culpa ea. Reiciendis excepturi id eius incidunt!
+                    <div class="skill">
+                        <div>
+                            <img src="image/logo.png" alt="dw">
+                            <h2>Github</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi officia fugit quisquam tempora placeat nihil, expedita dicta quo magni? Quae debitis expedita odio sequi, quam ullam explicabo culpa architecto sapiente!</p>
+                        </div>
+                        <div>
+                            <img src="image/logo.png" alt="dw">
+                            <h2>Deployment</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi officia fugit quisquam tempora placeat nihil, expedita dicta quo magni? Quae debitis expedita odio sequi, quam ullam explicabo culpa architecto sapiente!</p>
+                        </div>
+                        <div>
+                            <img src="image/logo.png" alt="dw">
+                            <h2>Javascript</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi officia fugit quisquam tempora placeat nihil, expedita dicta quo magni? Quae debitis expedita odio sequi, quam ullam explicabo culpa architecto sapiente!</p>
+                        </div>
+                    </div>
+                    <div class="social-media">
+                        <h2>Found on me</h2>
+                        <i class="fa-brands fa-facebook"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-whatsapp"></i>
+                        <i class="fa-brands fa-youtube"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                    </div>
+                </div>
+            </section>
         </div>
     </body>
 </html>
