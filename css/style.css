@@ -4,6 +4,8 @@
     color: black;
 }
 
+
+
 body {
     margin: 0;
     padding: 0;
@@ -16,6 +18,7 @@ nav {
     align-items: center;
     height: 10vh;
 }
+
 nav ul {
     display: flex;
     list-style-type: none;
@@ -26,18 +29,21 @@ nav ul li {
     margin-right: 25px;
     font-size: 20px;
 }
+
 nav ul li .active {
     color: orangered;
 }
 
-.nav-left {  
-    flex: 50%; 
+.nav-left { /* flex item */
+    flex: 50%; /* mengatur lebarnya */
+    /* background-color: red; */
 }
 
-.nav-right { 
+.nav-right { /* flex item */
     flex: 50%;
     text-align: end;
     margin-right: 25px;
+    /* background-color: blue; */
 }
 
 .nav-right a {
@@ -47,41 +53,33 @@ nav ul li .active {
      border-radius: 5px;
 }
 
-form {
-    width: 350px;
-    margin: 50px auto;
-    padding: 10px;
+.container {
+    display: flex;
+    justify-content: center;
+    height: 90vh;
+    align-items: center;
 }
 
-form div {
-    margin-top: 15px;
+section {
+    display: flex;
+    width: 80%;
 }
 
-label {
-    font-weight: bold;
+.left {
+    flex: 30%;
 }
 
-input, select, textarea {
-    background-color: #dfdede;
-    width: 100%;
-    padding: 10px;
-    margin-top: 5px;
-    border-radius: 5px;
-    border: 1px solid #dbdbdb;
-    resize: none;
+.right {
+    flex: 70%;
+    margin-left: 50px;
 }
 
-button {
-    background-color: orangered;
-    color: white;
-    padding: 90px auto;
-    border: none;
-    border-radius: 5px;
-    margin-top: 5px;
-    font-size: 15px;
-    cursor: pointer;
+.skill {
+    display: flex;
+    margin-top: 30px;
 }
 
-button:hover {
-    background-color: black;
+.social-media i {
+    margin-right: 20px;
+    font-size: 30px;
 }
