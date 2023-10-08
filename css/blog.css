@@ -61,6 +61,7 @@ nav ul li .active {
     padding: 50px 0;
     display: flex;
     justify-content: center;
+    background-color: #e3e7eb;
 }
 
 .blog-form .form-container {
@@ -70,30 +71,80 @@ nav ul li .active {
 .blog-form .form-container h1 {
     text-align: center;
     margin-bottom: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
 }
+
+.start-end {
+    display: flex;
+    gap: 70px;
+}
+
+
+
+.checkbox-gg {
+    display: flex;
+    flex-direction: row;
+    text-align: start;
+  }
+  
+  .left-checkbox {
+    width: 50%;
+  }
+  
+  .left-checkbox input {
+    width: 20px;
+    height: 20px;
+    margin-bottom: 12px;
+    box-shadow: 0px 0px 0px 1px rgb(128, 128, 128, 0.5) !important;
+  }
+  
+  .left-checkbox label {
+    padding-left: 10px;
+  }
+  
+  .right-checkbox input {
+    width: 20px;
+    height: 20px;
+    margin-bottom: 12px;
+    box-shadow: 0px 0px 0px 1px rgb(128, 128, 128, 0.5) !important;
+  }
+  
+  .right-checkbox label {
+    padding-left: 10px;
+  }
+  
+  .right-checkbox {
+    width: 50%;
+  }
+
 
 .blog-form form label {
     font-size: 20px;
-    font-weight: 400;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-.blog-form form input, 
-textarea, 
-select {
+.blog-form input, textarea, select {
     width: 100%;
     font-size: 20px;
     font-weight: 400;
     padding: 8px;
     margin-top: 5px;
     margin-bottom: 20px;
-    background: #f4f3f3;
-    border: 1px solid #c4c4c4;
-    border-radius: 8px;
+    background: white;
+    border: none;
+    border-radius: 5px;
     resize: none;
 }
 
+.blog .blog-form .form-container .input-form checkbox-gg {
+    border: none;
+    border-radius: 5px;
+}
+
 .blog-form form textarea {
-    height: 250px;
+    height: 150px;
 }
 
 .blog-form form .input-blog-image-group {
@@ -102,14 +153,29 @@ select {
     font-weight: 400;
     margin-top: 5px;
     margin-bottom: 20px;
-    background: #f4f3f3;
-    border: 1px solid #c4c4c4;
+    background: white;
+    border: 5px solid #c4c4c4;
     border-radius: 8px;
     cursor: pointer;
 }
 
 .blog-form form .input-blog-image-group label p {
+    border: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 5px;
+    color: #b2abab;
     font-size: 15px;
+}
+
+.blog-form form .input-blog-image-group .btn-color {
+    background-color: #e4e4e4;
+    border: none;
+    margin-left: -9px;
+    margin-top: -9px;
+    margin-bottom: -9px;
 }
 
 .blog-form form .input-blog-image-group label {
@@ -118,6 +184,13 @@ select {
     align-items: center;
     justify-content: space-between;
     padding: 8px;
+}
+
+.button-grup button {
+    background-color: black;
+    color: white;
+    width: 90px;
+    border-radius: 10px;
 }
 
 .blog hr {

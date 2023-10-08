@@ -95,7 +95,7 @@ function submitData() {
     //     return alert("Form must be filled!");
     // } 
 
-    if (name === ""){
+    if (name === "") {
         return alert("Name must be filled!");
     } else if (email === "") {
         return alert("Email must be filled!");

@@ -26,27 +26,109 @@
             <div class="blog-form">
                 <div class="form-container">
                     <form onsubmit="addBlog(event)">
-                      <h1>Create Post Blog</h1>
+                      <h1>Add My Project</h1>
                       <div>
-                        <label for="input-blog-title">Title</label>
+                        <label for="input-blog-title">Project Name</label>
                         <input type="text" id="input-blog-title"/>
                       </div>
-                      <div>
-                        <label for="input-blog-content">Content</label>
-                        <textarea id="input-blog-content"></textarea>
+                      <div class="start-end">
+                        <div class="input-form-left">
+                            <label for="input-start-date">Start Date</label>
+                            <input type="date" id="input-start-date">
+                        </div>
+                        <div class="input-form-right">
+                            <label for="input-end-date">End Date</label>
+                            <input type="date" id="input-end-date">
+                        </div>
                       </div>
                       <div>
-                        <label>File Upload</label>
+                        <label for="input-blog-content">Description</label>
+                        <textarea id="input-blog-content"></textarea>
+                      </div>
+                      <div class="technologies">
+                        <label for="input-project-description">Technologies</label>
+                    <div class="input-form checkbox-gg">
+                      <div class="left-checkbox">
+                        <div>
+                          <table>
+                            <tr>
+                                <td>
+                                    <input
+                                    style="box-shadow: none"
+                                    type="checkbox"
+                                    value="Node Js"
+                                    id="node-js-checkbox"
+                                    />
+                                </td>
+                            <td><label for="node-js-checkbox">Node Js</label></td>
+                            </tr>
+                          </table>
+                        </div>
+                        <div>
+                          <table>
+                            <tr>
+                                <td>
+                                    <input
+                                    style="box-shadow: none"
+                                    type="checkbox"
+                                    value="Node Js"
+                                    id="next-js-checkbox"
+                                    />
+                                </td>
+                                <td><label for="next-js-checkbox">Next Js</label></td>
+                            </tr>
+                          </table>
+                        </div>
+                    </div>
+                    <div class="right-checkbox">
+                      <div>
+                        <table>
+                            <tr>
+                                <td>
+                                    <input
+                                    style="box-shadow: none"
+                                    type="checkbox"
+                                    value="React Js"
+                                    id="react-js-checkbox"
+                                    />
+                                </td>
+                                <td><label for="react-js-checkbox">React Js</label></td>
+                            </tr>
+                        </table>
+                      </div>
+                      <div>
+                        <table>
+                            <tr>
+                                <td>
+                                    <input
+                                    style="box-shadow: none"
+                                    type="checkbox"
+                                    value="Type Script"
+                                    id="type-script-checkbox"
+                                    />
+                                </td>
+                                <td><label for="type-script-checkbox">Type Script</label></td>
+                            </tr>
+                        </table>
+                      </div>
+                    </div>
+                </div>
+
+                    </div>
+                      <div>
+                        <label>Upload Image</label>
                         <div class="input-blog-image-group">
                           <label for="input-blog-image">
-                           <p>Attach Files</p>
-                           <img src="image/file.png" />
-                          </label>
-                          <input type="file" id="input-blog-image" hidden/>
+                            <div class="btn-color">
+                             <p>Choose Files</p>
+                            </div>
+                            <img src="image/file.png" />
+                         </label>
+                         <input type="file" id="input-blog-image" hidden/>
                         </div>
                       </div>
                       <div class="button-grup">
-                        <button>Post Blog</button>
+                        <button>Submit</button>
                       </div>
                     </form>
                 </div>

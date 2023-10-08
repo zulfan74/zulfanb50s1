@@ -126,11 +126,11 @@ function addBlog(event) {
     content,
     image,
     postAt: "29 September 2023",
-    author: "Abel Dustin",
+    author: "Zulfan",
   };
 
   dataBlog.push(blog);
-  console.log(dataBlog);
+  //console.log(dataBlog);
 
   renderBlog();
 }
@@ -139,7 +139,7 @@ function renderBlog() {
   document.getElementById("contents").innerHTML = "";
 
   for (let index = 0; index < dataBlog.length; index++) {
-    console.log(dataBlog[index]);
+    //console.log(dataBlog[index]);
 
     document.getElementById("contents").innerHTML += `
         <div class="blog-list-item">
